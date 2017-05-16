@@ -1,7 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+/*
+ * @Author: yewei 
+ * @Date: 2017-05-16 10:47:45 
+ * @Last Modified by: yewei
+ * @Last Modified time: 2017-05-16 10:50:00
  */
 
 import React, { Component } from 'react';
@@ -11,43 +12,19 @@ import {
   Text,
   View
 } from 'react-native';
+// import HelloWorld from './src/Day01-HelloWorld/HelloWorld.js'; // day01 HelloWorld
+// import ImageDemo from './src/Day02-BasicExercises/ImageDemo'; // day02 Image && Layout01
+// import Layout from './src/Day03-LayoutExercises/Layout'; // day03 layout01
+// import Layout02 from './src/Day03-LayoutExercises/Layout02'; // day03 layout02
+import WriteMode from './src/Day04-WriteModal/WriteMode'; // day04 WriteMode
+// import Douban from './src/Day05-Douban/Douban';
 
 export default class ReactNativeDayAndDay extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
-      </View>
+      <WriteMode />
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
-
-AppRegistry.registerComponent('ReactNativeDayAndDay', () => ReactNativeDayAndDay);
+AppRegistry.registerComponent('ReactNativeDayAndDay', () => WriteMode);
