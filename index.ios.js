@@ -1,7 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+/*
+ * @Author: yewei 
+ * @Date: 2017-05-16 10:47:45 
+ * @Last Modified by: yewei
+ * @Last Modified time: 2017-05-16 11:03:07
  */
 
 import React, { Component } from 'react';
@@ -15,14 +16,14 @@ import {
 // import ImageDemo from './src/Day02-BasicExercises/ImageDemo'; // day02 Image && Layout01
 // import Layout from './src/Day03-LayoutExercises/Layout'; // day03 layout01
 // import Layout02 from './src/Day03-LayoutExercises/Layout02'; // day03 layout02
-import WriteMode from './src/Day04-WriteModal/WriteMode'; // day04 WriteMode
-// import Douban from './src/Day05-Douban/Douban';
+// import WriteMode from './src/Day04-WriteModal/WriteMode'; // day04 WriteMode
+import Douban from './src/Day05-Douban/Douban';
 export default class ReactNativeDayAndDay extends Component {
   render() {
     return (
-      <WriteMode />
+      <Douban />
     );
   }
 }
 
-AppRegistry.registerComponent('ReactNativeDayAndDay', () => WriteMode);
+AppRegistry.registerComponent('ReactNativeDayAndDay', () => Douban);
