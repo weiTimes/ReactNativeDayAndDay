@@ -2,7 +2,7 @@
  * @Author: yewei 
  * @Date: 2017-05-16 10:47:45 
  * @Last Modified by: yewei
- * @Last Modified time: 2017-05-26 14:36:52
+ * @Last Modified time: 2017-05-26 14:31:37
  */
 
 import React, { Component } from 'react';
@@ -18,7 +18,7 @@ import {
 // import Layout02 from './src/Day03-LayoutExercises/Layout02'; // day03 layout02
 // import WriteMode from './src/Day04-WriteModal/WriteMode'; // day04 WriteMode
 // import Douban from './src/Day05-Douban/Douban'; // day05 豆瓣
-import Root from './src/Day06-ListViewLoadMore/Root';
+import Root from './src/Day06-ListViewLoadMore/ShotList';
 
 // export default class ReactNativeDayAndDay extends Component {
 //   render() {
